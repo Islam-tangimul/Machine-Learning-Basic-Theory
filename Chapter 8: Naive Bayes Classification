@@ -1,0 +1,41 @@
+## What is Naive Bayes?
+Naive Bayes is a supervised learning algorithm based on Bayes’ Theorem, which calculates the probability of a class given the input features. It assumes that features are conditionally independent given the class — a simplifying (naive) assumption.
+
+## Why Use Naive Bayes?
+- Simple, fast, and effective, especially with high-dimensional data.
+- Works well with noisy and small datasets.
+- Provides probabilistic outputs useful for risk assessment.
+
+## Biomedical Applications of Naive Bayes
+
+### 1. Disease Diagnosis
+Predicting the likelihood of disease presence based on symptoms and test results.
+
+### 2. Text Mining in Biomedical Literature
+Classifying research articles or clinical notes.
+
+### 3. Spam Filtering for Medical Emails
+Filtering unwanted messages in healthcare communication.
+
+## Example: Predicting Heart Disease
+Given features like cholesterol level, blood pressure, and age, Naive Bayes estimates the probability of heart disease presence.
+
+## Advantages
+- Handles many features efficiently.
+- Requires relatively small training data.
+- Outputs probability estimates.
+
+## Limitations
+- The independence assumption is often violated in biomedical data.
+- Can perform poorly if features are highly correlated.
+
+## Summary
+ Prior Probability  Baseline chance of a disease or condition                  
+ Conditional Probability  Likelihood of features given disease status             
+ Independence Assumption  Simplifies calculations but may not always hold true    
+
+---
+
+**Next chapter:** Decision Trees  
+(We’ll learn about interpretable tree-based models widely used in biomedical research.)
+
