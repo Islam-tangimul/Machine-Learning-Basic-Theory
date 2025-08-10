@@ -1,0 +1,50 @@
+## What is a Decision Tree?
+A Decision Tree is a supervised learning algorithm used for classification and regression. It splits data into branches based on feature values, leading to decisions or predictions in a tree-like structure.
+Each internal node tests a feature, each branch corresponds to a feature value, and each leaf node represents an outcome (class or continuous value).
+
+## Why Use Decision Trees?
+- Highly interpretable and easy to visualize.
+- Can handle both categorical and continuous features.
+- Nonlinear relationships can be captured.
+- Requires little data preprocessing.
+
+## Biomedical Applications of Decision Trees
+
+### 1. Disease Diagnosis
+Classifying patients based on symptoms, lab results, and medical history.
+
+### 2. Treatment Decision Support
+Helping doctors decide treatment plans based on patient characteristics.
+
+### 3. Risk Stratification
+Identifying high-risk patients for closer monitoring or intervention.
+
+## How Decision Trees Work
+1. Select the best feature to split data based on criteria like **Gini impurity** or **information gain**.
+2. Partition the dataset into subsets based on feature values.
+3. Repeat the process recursively on each subset until the stopping criteria (e.g., max depth or minimum samples) are met.
+4. Assign a class label or value to leaf nodes.
+
+## Example: Diagnosing Diabetes
+The tree might first split patients based on glucose levels, then age, then BMI, leading to leaf nodes indicating diabetic or non-diabetic status.
+
+## Advantages
+- Easy to interpret and explain.
+- Handles missing values.
+- Captures feature interactions.
+
+## Limitations
+- Prone to overfitting, especially with deep trees.
+- Small changes in data can produce different trees.
+- Less accurate than ensemble methods on some tasks.
+
+## Summary
+ Node                Decision point based on a biomedical feature           
+ Leaf                Final classification or prediction                      
+ Splitting Criterion Metric to choose the best feature for partitioning data    
+
+---
+
+**Next chapter:** Principal Component Analysis (PCA)  
+(We’ll learn how to reduce the complexity of biomedical data while preserving important information.)
+
