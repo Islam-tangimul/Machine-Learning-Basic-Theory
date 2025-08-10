@@ -1,0 +1,51 @@
+## What is K-Nearest Neighbor (KNN)?
+K-Nearest Neighbor is a simple, instance-based supervised learning algorithm used for classification and regression. 
+It classifies a new data point based on the majority class of its **k** nearest neighbors in the feature space.
+
+Key points:  
+- No explicit training phase — it stores the training data.
+- Makes predictions by looking at the closest labeled examples.
+
+## Why Use KNN?
+- Easy to understand and implement.
+- Naturally adapts to complex decision boundaries.
+- Useful when decision boundaries are irregular.
+
+## Biomedical Applications of KNN
+
+### 1. Disease Classification
+- Classifying patients based on similarity in symptoms, lab results, or genetic profiles.
+
+### 2. Medical Image Analysis
+- Identifying abnormal regions by comparing with known labeled images.
+
+### 3. Patient Stratification
+- Grouping patients with similar clinical characteristics to tailor treatments.
+
+## How KNN Works
+1. Choose the number of neighbors, **k**.
+2. Calculate the distance (e.g., Euclidean) between the new data point and all points in the training set.
+3. Identify the **k** closest neighbors.
+4. Assign the class most common among these neighbors to the new point.
+
+## Example: Predicting Diabetes Status
+Given patient data (age, BMI, glucose level), predict whether a patient has diabetes by examining the classes of the closest **k** patients in the dataset.
+
+## Advantages
+- No assumptions about data distribution.
+- Works well with multi-class classification.
+
+## Limitations
+- Computationally expensive for large datasets.
+- Sensitive to irrelevant or redundant features.
+- Choice of **k** can significantly affect performance.
+
+## Summary
+ Nearest Neighbors  Patients or samples most similar in clinical features 
+ Distance Metric   Measure of similarity (e.g., Euclidean distance)  
+ Parameter k:      Number of neighbors considered                      
+
+---
+**Next chapter:** K-Means Clustering  
+(We’ll explore an unsupervised method useful for discovering patterns in biomedical data.)
+
