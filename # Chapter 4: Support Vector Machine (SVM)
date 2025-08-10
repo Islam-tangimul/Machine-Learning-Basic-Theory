@@ -1,0 +1,51 @@
+
+### Powerful Classification for Biomedical Data
+
+## What is a Support Vector Machine?
+Support Vector Machine (SVM) is a supervised learning algorithm used for classification (and regression).
+It finds the best boundary (hyperplane) that separates data points of different classes with the maximum margin.
+
+Key idea:  
+- SVM tries to maximize the distance (margin) between the closest data points of each class (called support vectors) and the decision boundary.
+
+## Why Use SVM?
+- Effective in high-dimensional spaces (like gene expression data).
+- Works well with a clear margin of separation.
+- Can handle nonlinear boundaries using kernel functions.
+
+## Biomedical Applications of SVM
+
+### 1. Cancer Classification
+- Classifying tumor samples as benign or malignant based on gene expression or imaging data.
+
+### 2. Disease Diagnosis
+- Distinguishing patients with or without a disease from clinical data.
+
+### 3. Biomarker Identification
+- Identifying important features that contribute to classification.
+
+## Linear vs Nonlinear SVM
+- **Linear SVM:** Finds a straight hyperplane to separate classes.
+- **Nonlinear SVM:** Uses kernel functions (e.g., RBF, polynomial) to map data into higher dimensions where classes become separable.
+
+## Example: Tumor Classification
+Given gene expression profiles of tumors, SVM can classify them into malignant or benign groups by finding the optimal hyperplane separating these groups.
+
+## Advantages
+- Robust to overfitting, especially in high-dimensional spaces.
+- Works well with small to medium datasets.
+
+## Limitations
+- Choosing the right kernel and parameters can be complex.
+- Computationally intensive for very large datasets.
+
+## Summary
+
+Support Vectors       Critical data points closest to the decision boundary    
+Hyperplane            Decision boundary separating classes                     
+Kernel Function       Transforms data to a higher dimension for nonlinear cases 
+
+---
+**Next chapter:** K-Nearest Neighbor (KNN)  
+(We’ll learn about a simple, intuitive classifier useful for biomedical data.)
+
