@@ -1,0 +1,49 @@
+## Why Measure Performance?
+Evaluating how well a model predicts or classifies biomedical data is crucial to ensure reliability and usefulness in clinical settings.
+
+## Key Performance Metrics
+
+### 1. Accuracy
+- The proportion of correct predictions (both positive and negative) out of total cases.
+
+### 2. Precision
+- How many of the predicted positive cases are actually positive.
+
+### 3. Recall (Sensitivity)
+- How many actual positive cases the model correctly identifies.
+
+### 4. Specificity
+- How many actual negative cases the model correctly identifies.
+
+### 5. F1 Score
+- Harmonic mean of precision and recall, useful for imbalanced data.
+
+### 6. ROC Curve and AUC
+- Receiver Operating Characteristic curve plots true positive rate vs false positive rate.
+- Area Under Curve (AUC) measures overall ability to discriminate between classes.
+
+## Biomedical Examples
+- Diagnosing diseases (e.g., cancer, diabetes) where missing positive cases (false negatives) can be critical.
+- Screening tests where high sensitivity is prioritized.
+- Predicting patient outcomes where balance between precision and recall matters.
+
+## Cross-Validation
+- Technique to assess model performance by partitioning data into training and testing sets multiple times to avoid overfitting.
+
+## Confusion Matrix
+
+                   Predicted Positive  Predicted Negative 
+ Actual Positive   True Positive (TP)   False Negative (FN) 
+ Actual Negative   False Positive (FP)  True Negative (TN)  
+
+## Summary
+ Accuracy    Overall correctness but can be misleading with imbalanced data 
+ Precision   Trustworthiness of positive predictions                     
+ Recall      Ability to detect all positive cases (e.g., disease cases)  
+ Specificity Correctly identifying negatives (e.g., healthy patients)    
+ F1 Score    Balance between precision and recall                         
+ AUC         Overall model discrimination power                           
+
+---
+**Next chapter:** What Next?  
+(We’ll discuss future directions and how to keep advancing your biomedical machine learning skills.)
