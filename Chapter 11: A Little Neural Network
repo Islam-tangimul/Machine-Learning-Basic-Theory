@@ -1,0 +1,52 @@
+
+## What is a Neural Network?
+A neural network is a collection of interconnected neurons (nodes) organized in layers. Unlike a single perceptron, a neural network can model complex, nonlinear relationships in data.
+
+### Basic Structure:
+- **Input Layer:** Receives features (e.g., patient measurements)
+- **Hidden Layers:** Perform transformations and extract patterns
+- **Output Layer:** Produces predictions (e.g., disease classification)
+
+## Why Use Neural Networks?
+- Handle complex, nonlinear biomedical data (imaging, genomics, signals).
+- Learn hierarchical feature representations.
+- High predictive accuracy in many biomedical applications.
+
+## Biomedical Applications of Neural Networks
+
+### 1. Medical Image Analysis
+Detecting tumors, segmenting organs, and diagnosing from scans.
+
+### 2. Genomic Data Interpretation
+Predicting gene functions, mutations, and disease risks.
+
+### 3. Patient Outcome Prediction
+Forecasting disease progression or treatment response.
+
+## How Neural Networks Learn
+- Weights are initialized randomly.
+- Data is fed forward through layers.
+- Errors are calculated at output.
+- Backpropagation updates weights to minimize errors.
+
+## Example: Predicting Cancer from Gene Expression
+A neural network can learn complex patterns in gene expression profiles to classify cancer types.
+
+## Advantages
+- Can approximate any function given enough data and neurons.
+- Flexible for various types of biomedical data.
+
+## Limitations
+- Require large amounts of data and computation.
+- Harder to interpret than simpler models.
+- Risk of overfitting if not properly regularized.
+
+## Summary
+ Layers           Levels of data processing and transformation           
+ Neurons           Processing units that mimic biological neurons          
+ Backpropagation   Algorithm to adjust weights based on error              
+
+---
+**Next chapter:** Performance  
+(We’ll learn how to evaluate and measure the quality of biomedical machine learning models.)
+
