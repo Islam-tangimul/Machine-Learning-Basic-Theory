@@ -1,0 +1,49 @@
+## What is Principal Component Analysis (PCA)?
+PCA is an unsupervised learning technique used for **dimensionality reduction**. It transforms high-dimensional data into a smaller set of uncorrelated variables called **principal components**, which capture the most variance in the data.
+
+This helps simplify datasets while retaining essential information.
+
+## Why Use PCA?
+- Biomedical data (like gene expression or imaging) often have thousands of features.
+- Reduces noise and redundancy.
+- Makes visualization and analysis easier.
+- Helps improve performance of other machine learning algorithms.
+
+## Biomedical Applications of PCA
+
+### 1. Gene Expression Analysis
+Reducing thousands of gene expression measurements to a few principal components to find patterns related to diseases.
+
+### 2. Medical Imaging
+Compressing image data for faster processing and analysis.
+
+### 3. Patient Stratification
+Visualizing patient clusters in reduced dimensions.
+
+## How PCA Works
+1. Standardize the data.
+2. Compute the covariance matrix to understand feature relationships.
+3. Calculate eigenvectors and eigenvalues of the covariance matrix
+
+## Example: Cancer Subtype Identification
+Using PCA on gene expression data can reveal clusters representing different cancer subtypes, aiding diagnosis and treatment planning.
+
+## Advantages
+- Removes correlated features.
+- Simplifies data visualization.
+- Speeds up learning algorithms.
+
+## Limitations
+- Principal components may be hard to interpret biologically.
+- Only captures linear relationships.
+- Sensitive to scaling of features.
+
+## Summary
+ Principal Components  New variables capturing most data variance                 
+ Eigenvalues        Amount of variance explained by each principal component    
+ Dimensionality Reduction:  Simplifying data with minimal information loss            
+
+---
+**Next chapter:** Perceptron  
+(We’ll explore the basics of neural networks starting with the perceptron algorithm.)
+
