@@ -1,0 +1,42 @@
+## What is a Perceptron?
+The perceptron is the simplest type of artificial neural network and a binary classifier. It models a single neuron that takes multiple input features, applies weights, sums them up, and passes the result through an activation function (usually a step function) to produce an output (0 or 1).
+
+## Why Use Perceptrons?
+- Forms the basis for more complex neural networks.
+- Good for linearly separable problems.
+- Simple and interpretable.
+
+## Biomedical Applications of Perceptrons
+
+### 1. Binary Disease Classification
+Determining presence or absence of diseases based on patient features.
+
+### 2. Signal Classification
+Classifying biomedical signals like ECG as normal or abnormal.
+
+### 3. Early Neural Network Models
+Foundations for deep learning applications in medical imaging and genomics.
+
+## How Perceptron Learning Works
+1. Initialize weights randomly.
+2. For each training sample, compute output.
+3. Update weights if prediction is wrong.
+4. Repeat until convergence or max iterations.
+
+## Advantages
+- Easy to implement and understand.
+- Fast training for simple datasets.
+
+## Limitations
+- Only works for linearly separable data.
+- Cannot solve complex problems like XOR.
+- Limited representational power compared to modern neural networks.
+
+## Summary
+ Weights          Importance of each patient feature                      
+ Bias             Threshold to adjust activation                          
+ Activation Function  Decision rule for classification                      
+
+---
+**Next chapter:** A Little Neural Network  
+(We’ll build on the perceptron to explore more powerful neural network models.)
