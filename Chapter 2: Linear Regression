@@ -1,0 +1,39 @@
+## What is Linear Regression?
+
+Linear Regression is one of the simplest and most widely used supervised learning algorithms.
+It models the relationship between one or more independent variables (features) and a continuous dependent variable (target) by fitting a linear equation to observed data.
+
+## Why Linear Regression?
+- Easy to interpret — coefficients show how each feature affects the outcome.
+- Fast to train and predict.
+- Good baseline model for continuous biomedical outcomes.
+
+## Biomedical Applications of Linear Regression
+### 1. Predicting Blood Pressure
+Using patient data such as age, weight, and cholesterol levels to predict systolic blood pressure.
+
+### 2. Estimating Disease Progression
+Modeling how biomarkers change over time to estimate progression rate in diseases like diabetes or Parkinson’s.
+
+### 3. Dosage Optimization
+Predicting the right medication dose based on patient-specific factors (weight, age, kidney function).
+
+## Example: Predicting Blood Pressure
+Suppose we have data on patients’ age and weight, and their measured blood pressure. Linear regression can find the relationship:
+
+## Assumptions of Linear Regression
+
+- Linear relationship between features and outcome.
+- Residuals (errors) are normally distributed.
+- Homoscedasticity: constant variance of errors.
+- No multicollinearity (independent features).
+
+## Limitations
+- Cannot capture complex nonlinear relationships.
+- Sensitive to outliers.
+- Assumes independence of observations.
+
+---
+
+**Next chapter:** Logistic Regression  
+(We’ll learn about classifying biomedical data — for example, determining if a patient has a disease or not.)
