@@ -1,0 +1,67 @@
+# Chapter One: Artificial Intelligence, Machine Learning, and Types of Learning  
+
+## What is Artificial Intelligence (AI)?
+Artificial Intelligence (AI) involves creating computer systems that can perform tasks requiring human intelligence—such as reasoning, learning, and decision-making.
+In biomedical science, AI enables machines to assist with diagnosing diseases, analyzing medical images, and personalizing treatment plans.
+
+Examples in biomedicine:
+- AI-powered diagnostic tools interpreting X-rays or MRIs.
+- Virtual health assistants providing patient support.
+- Predicting disease outbreaks using large datasets.
+
+## What is Machine Learning (ML)?
+Machine Learning is a subset of AI where computers learn from data to make predictions or decisions without explicit programming. 
+In biomedical science, ML algorithms analyze complex biological data—like genomics or patient records—to discover patterns and improve healthcare outcomes.
+
+Examples in biomedicine:
+- Predicting patient risk for diseases such as diabetes or cancer.
+- Analyzing gene expression data to classify cancer subtypes.
+- Drug discovery by predicting molecule interactions.
+
+## Relationship between AI and ML
+- AI is the broader goal of making machines “intelligent.”
+- ML provides practical tools to achieve AI by learning from biomedical data and improving over time.
+
+## Types of Machine Learning & Biomedical Applications
+
+### 1. Supervised Learning
+- Learns from labeled biomedical data where the outcome is known.
+- Examples:  
+  - Predicting disease presence from patient symptoms and test results.  
+  - Classifying medical images into normal vs. pathological.
+
+- Common algorithms: Linear Regression, Logistic Regression, Support Vector Machines (SVM), Decision Trees.
+- Use case: Predicting if a tumor is malignant or benign based on imaging and biopsy data.
+
+### 2. Unsupervised Learning
+- Finds hidden patterns in unlabeled biomedical data.
+- Examples:  
+  - Grouping patients based on gene expression profiles to discover disease subtypes.  
+  - Detecting anomalies in heart rate data that could indicate arrhythmias.
+- Common algorithms: K-Means Clustering, Principal Component Analysis (PCA).
+- Use case: Segmenting patient populations to tailor treatments.
+
+### 3. Reinforcement Learning
+- Learns optimal actions based on feedback from the environment.
+- Examples:  
+  - Optimizing radiation therapy dosing schedules to maximize treatment effect while minimizing side effects.  
+  - Training robotic surgical assistants.
+- Use case: Personalized treatment planning where the system learns the best therapy path.
+
+## Why is Machine Learning Important in Biomedical Science?
+- Handles massive and complex biomedical datasets.
+- Helps discover biomarkers for diseases.
+- Enables personalized medicine by tailoring treatments to individual patient data.
+- Improves diagnostic accuracy and speed.
+- Automates tedious tasks like image analysis.
+
+## Summary Table: Biomedical Focus                        
+ Artificial Intelligence: Creating intelligent systems to support healthcare decisions 
+ Machine Learning: Algorithms learning from biomedical data for prediction       
+ Supervised Learning: Predicting diseases, classifying images                         
+ Unsupervised Learning: Patient segmentation, anomaly detection                         
+ Reinforcement Learning: Personalized treatment optimization                             
+---
+**Next chapter:** Linear Regression  
+(Learn how linear regression can model relationships in biomedical data, like predicting blood pressure based on age and weight.)
+
