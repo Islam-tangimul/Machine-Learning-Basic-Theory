@@ -1,0 +1,36 @@
+ ## What is Logistic Regression?
+Logistic Regression is a supervised learning algorithm used for classification problems — predicting discrete outcomes, typically binary (yes/no, disease/no disease).
+Instead of predicting a continuous value like linear regression, logistic regression predicts the **probability** that a given input belongs to a particular class.
+
+## Why Logistic Regression?
+- Interpretable — coefficients show how features affect the log-odds of an outcome.
+- Effective for binary classification tasks.
+- Can be extended to multi-class problems (multinomial logistic regression).
+
+## Biomedical Applications of Logistic Regression
+### 1. Disease Diagnosis
+Predicting whether a patient has a disease (e.g., diabetes, cancer) based on clinical measurements and test results.
+
+### 2. Patient Risk Stratification
+Estimating the risk of readmission or adverse events in hospitals.
+
+### 3. Biomarker Analysis
+Determining which biomarkers significantly increase the odds of developing a condition.
+
+## Limitations
+
+- Cannot model complex nonlinear relationships without feature engineering.
+- Sensitive to outliers.
+- Assumes a linear decision boundary.
+
+## Summary
+
+ Odds                The ratio of the event happening to not happening                 
+ Log-odds (logit)    The natural logarithm of odds                                
+ Sigmoid function    Maps predictions to probabilities between 0 and 1            
+
+---
+
+**Next chapter:** Support Vector Machine (SVM)  
+(We’ll explore another powerful classifier useful in biomedical data analysis.)
+
