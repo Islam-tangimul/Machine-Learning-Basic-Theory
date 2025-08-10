@@ -1,0 +1,50 @@
+## What is K-Means Clustering?
+K-Means is an unsupervised learning algorithm used to group unlabeled data into **k** clusters based on feature similarity. 
+It partitions the data so that points within a cluster are more similar to each other than to points in other clusters.
+
+## Why Use K-Means?
+- Helps discover natural groupings in complex biomedical data.
+- Simple and efficient for large datasets.
+- Useful for exploratory data analysis.
+
+## Biomedical Applications of K-Means
+
+### 1. Patient Segmentation
+Grouping patients based on clinical measurements or genetic profiles to identify disease subtypes or risk groups.
+
+### 2. Gene Expression Analysis
+Clustering genes with similar expression patterns to understand biological processes.
+
+### 3. Medical Image Segmentation
+Separating different tissue types or abnormal regions in imaging data.
+
+## How K-Means Works
+1. Select the number of clusters, **k**.
+2. Initialize **k** cluster centroids randomly.
+3. Assign each data point to the nearest centroid.
+4. Recalculate centroids as the mean of points assigned to each cluster.
+5. Repeat steps 3-4 until cluster assignments stabilize.
+
+## Example: Clustering Patients by Symptoms
+Given patient symptom data, K-Means can group patients into clusters representing distinct disease subtypes or severity levels.
+
+## Advantages
+- Fast and scalable.
+- Easy to implement and interpret.
+
+## Limitations
+- Requires choosing **k** in advance.
+- Sensitive to initial centroid placement.
+- Assumes spherical clusters of similar size.
+
+## Summary
+
+ Clusters           Groups of patients or genes with similar characteristics  
+ Centroids          Center points representing clusters                      
+ Unsupervised Learning  Learning patterns without labeled outcomes              
+
+---
+
+**Next chapter:** Naive Bayes Classification  
+(We’ll explore a probabilistic classifier useful in biomedical applications.)
+
